@@ -27,8 +27,8 @@ export const metadata = {
   themeColor: "#f3f4f6",
   viewport: "width=device-width, initial-scale=1.0",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
