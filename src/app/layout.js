@@ -23,7 +23,7 @@ export const metadata = {
     "color picker",
     "design tool",
   ],
-  authors: [{ name: "Your Name", url: "https://yourwebsite.com" }],
+  authors: [{ name: "Arshad Qadri", url: "https://arshadqadri.com" }],
   themeColor: "#f3f4f6",
   viewport: "width=device-width, initial-scale=1.0",
   icons: {
@@ -36,10 +36,10 @@ export const metadata = {
     description:
       "Explore beautiful colors and generate shades. Click to copy hex codes.",
     type: "website",
-    url: "https://yourwebsite.com/color-explorer",
+    url: "https://colors.arshadqadri.com/",
     images: [
       {
-        url: "https://yourwebsite.com/preview-image.png",
+        url: "https://colors.arshadqadri.com/preview-image.png",
         width: 1200,
         height: 630,
         alt: "Color Explorer Preview",
@@ -51,9 +51,9 @@ export const metadata = {
     title: "Color Explorer",
     description:
       "Explore beautiful colors and generate shades. Click to copy hex codes.",
-    images: ["https://yourwebsite.com/preview-image.png"],
+    images: ["https://colors.arshadqadri.com/preview-image.png"],
   },
-  metadataBase: new URL("https://yourwebsite.com"),
+  metadataBase: new URL("https://colors.arshadqadri.com/"),
 };
 
 export default function RootLayout({ children }) {
@@ -72,12 +72,12 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebApplication",
               name: "Color Explorer",
-              url: "https://yourwebsite.com/color-explorer",
+              url: "https://colors.arshadqadri.com/",
               description:
                 "Explore beautiful colors and generate shades. Click to copy hex codes.",
               applicationCategory: "DesignApplication",
               operatingSystem: "Web",
-              screenshot: "https://yourwebsite.com/preview-image.png",
+              screenshot: "https://colors.arshadqadri.com/preview-image.png",
             }),
           }}
         />
